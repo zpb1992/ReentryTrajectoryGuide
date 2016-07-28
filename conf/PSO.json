@@ -1,0 +1,49 @@
+{
+  "ParticleNum": 50,
+  "ParticleDim": [ 20, 20, 1 ],
+  "PositionScope": [
+    {
+      "min": -80,
+      "max": 80
+    },
+    {
+      "min ": -20,
+      "max": 20
+    },
+    {
+      "min": 1000,
+      "max": 3000
+    }
+  ],
+  "VelcityScope": [
+    {
+      "min": -50,
+      "max": 50
+    },
+    {
+      "min ": -10,
+      "max": 10
+    },
+    {
+      "min": -1000,
+      "max": 1000
+    }
+  ],
+  "Iterations": 200,
+  "InertiaWeight": 2,
+  "LearningFactor1": 2,
+  "LearningFactor2": 2,
+
+  // 归一化的参数中的角度是按弧度给的
+  "FinalState": [ 6391000, 232, 37, 1000, 0, 0 ],
+          // 6371000+20000
+  "FinalStateWeights": [ 0.4438, 0.4438, 0.4438, 0.4438, 0, 0 ],
+  "FinalStateNormalization":[100,0.01,0.01,10,0.01,0.01],
+  "PathStateMax": [ 1000000, 500000, 6 ],
+  "PathStateWeights": [ 0.2488, 0.2488, 0.2488 ],
+  "PathStateNormalization":[100000,10000,1],
+  "ControlWeights": [ 0.0762, 0.0762 ],
+  "ControlNormalization":[100,100],
+  "BalanceWeights": [ 0.0762, 0.0762 ],
+  "BalanceNormalization":[100,100]
+}
