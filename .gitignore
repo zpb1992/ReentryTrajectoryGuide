@@ -1,0 +1,9 @@
+/*
+
+!json/
+!conf/
+!*.h
+!*.cpp
+!*.lib
+!*.json
+!.gitignore
